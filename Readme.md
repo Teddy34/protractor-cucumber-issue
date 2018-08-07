@@ -5,6 +5,7 @@ This repo has been setup to highlight an issue with parallel run of protractor t
 ## Install
 
 `npm i`
+
 `npm run update`
 
 ## Test issue
