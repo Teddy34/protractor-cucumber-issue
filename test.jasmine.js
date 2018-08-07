@@ -1,5 +1,5 @@
-describe('test', () => {
-	it('test something', () => {
-		expect('test').toEqual('Super Calculator');
+describe('test failing suite', () => {
+	it('test fail test', () => {
+		expect('this should').toEqual('fail');
 	})
 })

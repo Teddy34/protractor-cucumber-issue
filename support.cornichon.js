@@ -1,16 +1,10 @@
 const { When, Then } = require('cucumber');
 const chai = require('chai');
 
-When(
-  /^I make a small test$/,
+Then(
+  /^I make a small test fail$/,
   function() {
-    return Promise.resolve()
-      .then(() => chai.expect('test').to.equal('toto')
-      );
+    chai.expect('this should').to.equal('fail')
   }
 );
 
-Then(  /^the test succeed$/,
-  function() {
-  }
-);
