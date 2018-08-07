@@ -1,0 +1,20 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "protractor": "^5.4.0",
+    "protractor-cucumber-framework": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cucumber": "protractor conf.cucumber.js",
+    "jasmine": "protractor conf.jasmine.js",
+    "update": "./node_modules/protractor/node_modules/webdriver-manager/bin/webdriver-manager update --gecko=false"
+  },
+  "author": "",
+  "license": "ISC"
+}
